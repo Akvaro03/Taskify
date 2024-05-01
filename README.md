@@ -25,11 +25,11 @@ Taskify es una aplicación de gestión de tareas diseñada para ayudarte a organ
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tu_usuario/taskify.git`
+1. Clona el repositorio: `git clone https://github.com/Akvaro03/taskify.git`
 2. Instala las dependencias: `npm install`
 3. Configura las variables de entorno: Renombra `.env.example` a `.env` y configura las variables necesarias.
 4. Inicia el servidor: `npm start`
 
 ## Contribución
 
-¡Contribuciones son bienvenidas! Si tienes ideas para nuevas características o mejoras, no dudes en abrir un is
+¡Contribuciones son bienvenidas! Si tienes ideas para nuevas características o mejoras, no dudes en abrir un issue o enviar un pull request.
