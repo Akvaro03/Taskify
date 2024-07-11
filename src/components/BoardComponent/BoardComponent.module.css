@@ -1,0 +1,14 @@
+.containerButtons{
+    display: flex;
+    align-items: center;
+}
+
+.containerButtons button{
+    margin: 0 4vmin;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.addTask{
+    background: var(--prime-color);
+}

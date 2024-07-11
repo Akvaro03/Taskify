@@ -1,0 +1,42 @@
+.asideComponent {
+    height: calc(100vh - 4rem) ;
+    border-right: 1px solid #718096;
+    width: 10rem
+}
+
+
+.projectItem {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    transition: ease-in-out .3s;
+    gap: 0.5rem;
+    color: #a0aec0;
+}
+
+.projectItem:hover {
+    color: var(--prime-color);
+    transform: scale(.9);
+}
+
+.contentAddButton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10vmin;
+    border-bottom: 1px solid #718096;
+    width: 100%;
+}
+
+.buttonAddProject {
+    transition: ease-in-out .3s;
+    cursor: pointer;
+    margin-right: 3vmin;
+}
+
+.buttonAddProject:hover {
+    color: var(--prime-color);
+    transform: scale(.9);
+}
