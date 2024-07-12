@@ -12,3 +12,8 @@
 .addTask{
     background: var(--prime-color);
 }
+
+.BoardComponent{
+    height: calc(100vh - 4rem);
+    width: 100%;
+}

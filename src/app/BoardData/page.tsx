@@ -1,7 +1,7 @@
 import AsideProjectsComponent from "@/components/AsideProjectsComponent";
 import BoardComponent from "@/components/BoardComponent";
 import HeaderComponent from "@/components/HeaderComponent";
-import projectType from "@/types/project";
+import { projectType } from "@/types/project";
 
 function BoardData() {
     return (
@@ -17,7 +17,23 @@ function BoardData() {
 
 const BoardDataExample: projectType = {
     name: "Project 1",
-    users: []
+    users: [],
+    boardList: [
+        {
+            tittle:"Lista 1",
+            tasks:[
+                {
+                    tittle:"Task 1"
+                },
+                {
+                    tittle:"Task 2"
+                }
+            ]
+        },
+        {
+            tittle:"Lista 2"
+        }
+    ]
 }
 
 export default BoardData;
