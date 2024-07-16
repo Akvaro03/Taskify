@@ -9,7 +9,7 @@ function BoardData() {
             <HeaderComponent />
             <main className="flex">
                 <AsideProjectsComponent />
-                <BoardComponent project={BoardDataExample}/>
+                <BoardComponent project={BoardDataExample} />
             </main>
         </>
     );
@@ -20,19 +20,96 @@ const BoardDataExample: projectType = {
     users: [],
     boardList: [
         {
-            tittle:"Lista 1",
-            tasks:[
+            tittle: "Lista 1",
+            tasks: [
                 {
-                    tittle:"Task 1"
+                    tittle: "Task 1"
                 },
                 {
-                    tittle:"Task 2"
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
                 }
             ]
         },
         {
-            tittle:"Lista 2"
-        }
+            tittle: "Lista 2"
+        },
+        {
+            tittle: "Lista 1",
+            tasks: [
+                {
+                    tittle: "Task 1"
+                },
+                {
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
+                }
+            ]
+        },
+        {
+            tittle: "Lista 1",
+            tasks: [
+                {
+                    tittle: "Task 1"
+                },
+                {
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
+                }
+            ]
+        },
+        {
+            tittle: "Lista 1",
+            tasks: [
+                {
+                    tittle: "Task 1"
+                },
+                {
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
+                }
+            ]
+        },
+        {
+            tittle: "Lista 1",
+            tasks: [
+                {
+                    tittle: "Task 1"
+                },
+                {
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
+                }
+            ]
+        },
+        {
+            tittle: "Lista 1",
+            tasks: [
+                {
+                    tittle: "Task 1"
+                },
+                {
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
+                }
+            ]
+        },
+        {
+            tittle: "Lista 1",
+            tasks: [
+                {
+                    tittle: "Task 1"
+                },
+                {
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
+                }
+            ]
+        },
+        {
+            tittle: "Lista 1",
+            tasks: [
+                {
+                    tittle: "Task 1"
+                },
+                {
+                    tittle: "Ver como se actualizarian los contratos, en caso de cambiar los mismos o la necesidad de agregar 1 nuevo."
+                }
+            ]
+        },
     ]
 }
 

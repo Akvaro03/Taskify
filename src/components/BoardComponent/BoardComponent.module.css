@@ -1,19 +1,26 @@
-.containerButtons{
+.BoardComponent {
+    height: calc(100vh - 4rem);
+    width: calc(100vw - 10rem);
+}
+
+.headerTasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.containerButtons {
     display: flex;
     align-items: center;
 }
 
-.containerButtons button{
+.containerButtons button {
     margin: 0 4vmin;
     padding: 8px;
     border-radius: 8px;
 }
 
-.addTask{
+.addTask {
     background: var(--prime-color);
-}
-
-.BoardComponent{
-    height: calc(100vh - 4rem);
-    width: 100%;
 }
